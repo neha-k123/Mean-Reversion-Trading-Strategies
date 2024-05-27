@@ -1,7 +1,9 @@
 # mean_revert_trading_strats
 A mini project to test different implementations of mean reversion trading strategy on NYSE stocks. 
 Our work was derived from implementations as described on the [Wikipedia page
-]([url](https://en.wikipedia.org/wiki/Rescaled_range)) and [this blog post]([url](https://blogs.cfainstitute.org/investor/2013/01/30/rescaled-range-analysis-a-method-for-detecting-persistence-randomness-or-mean-reversion-in-financial-markets/)) by Jason Voss. 
+]([url](https://en.wikipedia.org/wiki/Rescaled_range)) [https://en.wikipedia.org/wiki/Rescaled_range]
+and [this blog post]([url](https://blogs.cfainstitute.org/investor/2013/01/30/rescaled-range-analysis-a-method-for-detecting-persistence-randomness-or-mean-reversion-in-financial-markets/)) by Jason Voss. 
+[https://blogs.cfainstitute.org/investor/2013/01/30/rescaled-range-analysis-a-method-for-detecting-persistence-randomness-or-mean-reversion-in-financial-markets/]
 
 ## Usage
 - Our script prompts the user to enter the ticker of the instrument as it appears on the NYSE, followed by the start date and end date for the time period of data collection.
