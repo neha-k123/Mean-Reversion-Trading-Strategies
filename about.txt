@@ -1,0 +1,7 @@
+- Mean reversion trading algorithms are powerful algorithms that are used to predict anti-persistent or sideway markets.
+- There are many methods of implementing mean reverting strategies, such as Bollinger bands, moving averages, and standard deviation indeces.
+- Our first step in our analysis was to create a rescaled range analysis to calculate the Hurst coefficient for various stocks and ETFs.
+- The Hurst coefficient produced indicates if stocks are suitable for mean reverting strategies.
+- If the coefficient was less than 0.5, that indicates an anti-persistent market that is generally mean reverting; if it was greater than 0.5, that would indicate a persistent market.
+- Then, we created a mean reverting algorithm based on an offset of 1% from a 30 day moving average. 
+- We implemented backtesting to test our strategies efficiency - we realized over 100% of returns on IBM stock from 2016-2021. 
